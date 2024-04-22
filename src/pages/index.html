@@ -4,28 +4,25 @@
     <script src="/node_modules/htmx.org/dist/htmx.min.js"></script>
     <link href="/src/output.css" rel="stylesheet">
   </head>
-  <body class="min-h-screen">
+  <body class="min-h-screen relative pb-12 bg-slate-50">
     <header class="w-full flex justify-center space-x-2 border-b-2 shadow">
-      <div class="p-2 hover:text-blue-700 cursor-pointer">
+      <div class="p-2 hover:text-blue-800 cursor-pointer" hx-get="/src/component/home.html" hx-target="#content-container">
         Home
       </div>
-      <div class="p-2 hover:text-blue-700 cursor-pointer">
+      <div class="p-2 hover:text-blue-800 cursor-pointer" hx-get="/src/component/aboutme.html" hx-target="#content-container">
         About Me
       </div>
-      <div class="p-2 hover:text-blue-700 cursor-pointer">
-        Projects
+      <div class="p-2 hover:text-blue-800 cursor-pointer" hx-get="/src/component/experience.html" hx-target="#content-container">
+        Experience
       </div>
-      <div class="p-2 hover:text-blue-700 cursor-pointer">
-        Education
-      </div>
-      <div class="p-2 hover:text-blue-700 cursor-pointer">
+      <div class="p-2 hover:text-blue-800 cursor-pointer" hx-get="/src/component/contact.html" hx-target="#content-container">
         Contact
       </div>
     </header>
-    <main id="content-container" class="mb-12">
-      Replace this content, now!!
+    <main id="content-container" class="flex flex-col justify-center" hx-get="/src/component/home.html" hx-trigger="load">
+      <img alt="image loading..." class="htmx-indicator" width="150" src="/public/loading-black.svg">
     </main>
-    <footer class="w-full flex justify-center absolute bottom-0 h-12 shadow-[0_-1px_3px_0_rgba(0,0,0/0.1),0_-1px_2px_-1px_rgba(0,0,0/0.1)]">
+    <footer class="w-full flex justify-center absolute bottom-0 h-12 shadow-[0_-2px_3px_0_rgb(0_0_0_/_0.1),0_-2px_2px_-1px_rgb(0_0_0_/_0.1)]">
       <div class="p-2">
         Copyright 2024. Moohaeng Sohn
       </div>
