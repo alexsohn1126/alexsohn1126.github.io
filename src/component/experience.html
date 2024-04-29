@@ -2,17 +2,17 @@
   <div class="text-4xl text-center pt-6">
     Experiences
   </div>
-  <div class="flex flex-col items-center align-center mt-6 w-[30vw] bg-slate-200 rounded p-4">
+  <div class="flex flex-col items-center align-center mt-6 w-[50%] bg-slate-200 rounded p-4 shadow">
     <div class="text-lg">
       Software Developer Intern - FinanceIt
     </div>
     <div class="text-md text-gray-500 text-center">
       May 2022 - May 2023 <br>
-      Ruby on Rails, MySQL, Airflow 
+      Ruby on Rails, Ember.js, Airflow, MySQL, Tailwind CSS
     </div>
     <ol class="list-disc list-inside">
       <li>
-        Implemented a system to notify and mark the user if we receive a returned mail from their address,
+        Implemented a full stack solution to notify and mark the user if we receive a returned mail from their address,
         saving operation costs to manually call the user, and sending a mail that would eventually be
         returned.
       </li>
@@ -21,12 +21,53 @@
         email address, reducing the cost of mail sending operations.
       </li>
       <li>
-        Implemented an Airflow job to automatically collect and format customer information (metro2
-        report) to Equifax monthly, saving the time to manually send the report every month.
+        Implemented an Airflow job to automatically collect and format customer reports monthly, saving the time to manually send the report every month.
       </li>
       <li>
         Optimized a page in administration website by pagination which helped to reduce the load time
         for admin portals.
+      </li>
+    </ol>
+  </div>
+  <div class="text-4xl text-center pt-12">
+    Projects
+  </div>
+  <div class="flex flex-col items-center align-center my-6 w-[50%] bg-slate-200 rounded p-4 shadow">
+    <div class="text-lg">
+      1 on 1
+    </div>
+    <div class="text-md text-gray-500 text-center">
+      January 2024 - April 2024 <br>
+      React, Django, SQLite, Tailwind CSS
+    </div>
+    <div class="w-full h-[500px] py-2 rounded relative project-image-container" hx-get="/src/images/oneonone-image-1" hx-trigger="load">
+    </div>
+    <ol class="list-disc list-inside">
+      <li>
+        Made a web application to allow music professors to schedule a meeting with their students using React for the frontend and Django for the backend.
+      </li>
+      <li>
+        Followed RESTful API design to make the backend using Django framework, and used React for the frontend.
+      </li>
+    </ol>
+  </div>
+  <div class="flex flex-col items-center align-center mb-6 w-[50%] bg-slate-200 rounded p-4 shadow">
+    <div class="text-lg">
+      <a class="text-blue-800 hover:text-blue-600" href="https://github.com/alexsohn1126/LeetcodeNotes">Leetcode Notes</a>
+    </div>
+    <div class="text-md text-gray-500 text-center">
+      July 2023
+      <br>
+      Javascript, HTML, CSS
+    </div>
+    <div class="w-full h-[500px] py-2 rounded relative leetcode-notes-image-container" hx-get="/src/images/leetcode-notes-image-1" hx-trigger="load">
+    </div>
+    <ol class="list-disc list-inside">
+      <li>
+        Made a Firefox browser extension to store notes for each leetcode question.
+      </li>
+      <li>
+        Check out the extension (for Firefox): <a class="underline hover:no-underline hover:text-slate-400" href="https://addons.mozilla.org/en-CA/firefox/addon/leetcode-notes/">Here.</a>
       </li>
     </ol>
   </div>
