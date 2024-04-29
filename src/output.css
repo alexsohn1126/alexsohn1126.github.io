@@ -626,6 +626,11 @@ video {
   height: 2rem;
 }
 
+.size-32 {
+  width: 8rem;
+  height: 8rem;
+}
+
 .h-1\/6 {
   height: 16.666667%;
 }
@@ -734,6 +739,12 @@ video {
   --tw-space-y-reverse: 0;
   margin-top: calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(0.5rem * var(--tw-space-y-reverse));
+}
+
+.space-x-8 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(2rem * var(--tw-space-x-reverse));
+  margin-left: calc(2rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
 .self-center {
