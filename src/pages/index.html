@@ -2,27 +2,27 @@
 <html>
   <head>
     <script src="https://unpkg.com/htmx.org@1.9.12" integrity="sha384-ujb1lZYygJmzgSwoxRggbCHcjc0rB2XoQrxeTUQyRjrOnlCoYta87iKBWq3EsdM2" crossorigin="anonymous"></script>
-    <link href="/portfolio-website/src/output.css" rel="stylesheet">
-    <base href="https://alexsohn1126.github.io/portfolio-website/">
+    <link href="/src/output.css" rel="stylesheet">
+    <base href="https://alexsohn1126.github.io/">
     <title>Moohaeng's Website</title>
   </head>
   <body class="min-h-screen relative pb-12 bg-slate-50">
     <header class="w-full flex justify-center space-x-2 border-b-2 shadow">
-      <div class="p-2 hover:text-blue-800 cursor-pointer" hx-get="/portfolio-website/src/component/home.html" hx-target="#content-container">
+      <div class="p-2 hover:text-blue-800 cursor-pointer" hx-get="/src/component/home.html" hx-target="#content-container">
         Home
       </div>
-      <div class="p-2 hover:text-blue-800 cursor-pointer" hx-get="/portfolio-website/src/component/aboutme.html" hx-target="#content-container">
+      <div class="p-2 hover:text-blue-800 cursor-pointer" hx-get="/src/component/aboutme.html" hx-target="#content-container">
         About Me
       </div>
-      <div class="p-2 hover:text-blue-800 cursor-pointer" hx-get="/portfolio-website/src/component/experience.html" hx-target="#content-container">
+      <div class="p-2 hover:text-blue-800 cursor-pointer" hx-get="/src/component/experience.html" hx-target="#content-container">
         Experience
       </div>
-      <div class="p-2 hover:text-blue-800 cursor-pointer" hx-get="/portfolio-website/src/component/contact.html" hx-target="#content-container">
+      <div class="p-2 hover:text-blue-800 cursor-pointer" hx-get="/src/component/contact.html" hx-target="#content-container">
         Contact
       </div>
     </header>
-    <main id="content-container" class="flex flex-col justify-center" hx-get="/portfolio-website/src/component/home.html" hx-trigger="load">
-      <img alt="image loading..." class="htmx-indicator" width="150" src="/portfolio-website/public/loading-black.svg">
+    <main id="content-container" class="flex flex-col justify-center" hx-get="/src/component/home.html" hx-trigger="load">
+      <img alt="image loading..." class="htmx-indicator" width="150" src="/public/loading-black.svg">
     </main>
     <footer class="w-full flex justify-center absolute bottom-0 h-12 shadow-[0_-2px_3px_0_rgb(0_0_0_/_0.1),0_-2px_2px_-1px_rgb(0_0_0_/_0.1)]">
       <div class="p-2">
