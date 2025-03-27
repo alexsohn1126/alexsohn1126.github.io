@@ -6,7 +6,7 @@ function AboutMe() {
         <div className="flex flex-col space-y-2">
           <img
             alt="Picture of me"
-            src="/public/portrait.jpg"
+            src="portrait.jpg"
             className="w-96 rounded border-2 border-sky-900 shadow-lg"
           />
           <div className="rounded bg-slate-200 w-96 p-4 shadow">
