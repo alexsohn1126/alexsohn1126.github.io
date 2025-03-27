@@ -33,15 +33,15 @@ function App() {
         </div>
         <div
           className="p-2 hover:text-gray-400 cursor-pointer"
-          onClick={() => setActiveComponent("contact")}
-        >
-          Contact
-        </div>
-        <div
-          className="p-2 hover:text-gray-400 cursor-pointer"
           onClick={() => setActiveComponent("projects")}
         >
           Projects
+        </div>
+        <div
+          className="p-2 hover:text-gray-400 cursor-pointer"
+          onClick={() => setActiveComponent("contact")}
+        >
+          Contact
         </div>
       </header>
       <main id="content-container" className="flex flex-col justify-center">
