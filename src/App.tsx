@@ -48,7 +48,7 @@ function App() {
         <CurrPage currPage={activeComponent} />
       </main>
       <footer className="w-full flex justify-center absolute bottom-0 h-12 shadow-[0_-3px_3px_rgb(0,0,0,0.15)]">
-        <div className="p-2">Copyright 2024. Moohaeng Sohn</div>
+        <div className="p-2">Copyright 2025. Moohaeng Sohn</div>
       </footer>
     </div>
   );
