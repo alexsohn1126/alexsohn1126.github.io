@@ -85,16 +85,6 @@ function AboutMe() {
               name="And Still Learning more!"
             />
           </div>
-          <p className="text-center">
-            To see how I used these technologies, check out
-            <a
-              className="text-blue-700 hover:underline cursor-pointer"
-              hx-get="/src/component/experience.html"
-              hx-target="#content-container"
-            >
-              experiences section!
-            </a>
-          </p>
         </div>
       </div>
     </>
