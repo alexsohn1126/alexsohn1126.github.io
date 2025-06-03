@@ -2,7 +2,7 @@ function Contact() {
   return (
     <div className="flex flex-col items-center">
       <div className="text-3xl p-12">Contact Me!</div>
-      <div className="flex pt-2 space-x-8">
+      <div className="flex flex-col md:flex-row pt-2 gap-4">
         <a href="mailto: alexsohn1126@gmail.com">
           <img className="size-32" src="email-logo.svg" />
         </a>

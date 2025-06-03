@@ -1,14 +1,14 @@
 function Experience() {
   return (
-    <div className="flex flex-col items-center">
+    <div className="flex flex-col items-center px-4">
       <div className="text-4xl text-center pt-6">Experiences</div>
-      <div className="flex flex-col items-center align-center mt-6 w-[50%] bg-slate-200 rounded p-4 shadow">
-        <div className="text-lg">Backend Developer - SOTI Connect</div>
-        <div className="text-md text-gray-500 text-center">
+      <div className="flex flex-col items-center w-full max-w-2xl mt-6 bg-slate-200 rounded p-4 shadow">
+        <div className="text-lg font-semibold text-center">Backend Developer - SOTI Connect</div>
+        <div className="text-md text-gray-500 text-center py-2">
           2024 <br />
           C#, Blazor, REST, MQTT, SNMP, IoT
         </div>
-        <ol className="list-disc list-inside">
+        <ol className="list-disc list-inside space-y-2 pl-2">
           <li>
             Helped to optimize existing test suites by fixing bugs in
             integration tests, resulting in a 50-minute cut in test times.
@@ -29,13 +29,13 @@ function Experience() {
           </li>
         </ol>
       </div>
-      <div className="flex flex-col items-center align-center mt-6 w-[50%] bg-slate-200 rounded p-4 shadow">
-        <div className="text-lg">Full Stack Developer - FinanceIt</div>
-        <div className="text-md text-gray-500 text-center">
+      <div className="flex flex-col items-center w-full max-w-2xl mt-6 bg-slate-200 rounded p-4 shadow">
+        <div className="text-lg font-semibold text-center">Full Stack Developer - FinanceIt</div>
+        <div className="text-md text-gray-500 text-center py-2">
           May 2022 - May 2023 <br />
           Ruby on Rails, Ember.js, Airflow, MySQL, Tailwind CSS
         </div>
-        <ol className="list-disc list-inside">
+        <ol className="list-disc list-inside space-y-2 pl-2">
           <li>
             Implemented a system to automatically notify users of returned mail
             and marked their accounts, reducing operational costs associated
