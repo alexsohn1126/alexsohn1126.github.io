@@ -1,6 +1,6 @@
 function Experience() {
   return (
-    <div className="flex flex-col items-center px-4">
+    <div className="flex flex-col items-center mb-4 px-4">
       <div className="text-4xl text-center pt-6">Experiences</div>
       <div className="flex flex-col items-center w-full max-w-2xl mt-6 bg-slate-200 rounded p-4 shadow">
         <div className="text-lg font-semibold text-center">Backend Developer - SOTI Connect</div>
